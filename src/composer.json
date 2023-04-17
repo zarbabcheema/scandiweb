@@ -1,0 +1,17 @@
+{
+    "name": "scandiweb/src",
+    "authors": [
+        {
+            "name": "Zarbab Mushtaq",
+            "email": "zarbab.mushtaq@rltsquare.com"
+        }
+    ],
+    "require": {
+      "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "backend/"
+        }
+    }
+  }

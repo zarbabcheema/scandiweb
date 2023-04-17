@@ -1,0 +1,150 @@
+.title{
+    border-bottom: 3px solid black;
+    padding-bottom: 44px;
+    padding-top: 10px;
+}
+
+.del-button {
+    position: relative;
+    top: -96px;
+    left: 1524px;
+    width: fit-content;
+    height: 42px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.save-button {
+    position: relative;
+    top: -78px;
+    left: 1498px;
+    width: 108px;
+    height: 42px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+a.add-button {
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 10px 24px 11px 10px;
+    border: 2px solid black;
+    width: fit-content;
+    font-weight: bold;
+    position: relative;
+    top: -66px;
+    left: 1647px;
+    height: 42px;
+}
+a.cancel-button{
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 10px 24px 11px 10px;
+    border: 2px solid black;
+    width: fit-content;
+    font-weight: bold;
+    position: relative;
+    top: -107px;
+    left: 1650px;
+    height: 42px;
+}
+* {
+    box-sizing: border-box;
+}
+.column:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    padding: 2px 16px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 21px 27px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+input.checkbox {
+    float: left;
+}
+
+input[type=text],input[type=number], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    width: 65%;
+}
+#error{
+    display: none;
+    color: red;
+}
+#error-result{
+    color: red;
+}
+a.add-button {
+    right: 0px !important;
+    left: auto;
+    top: 20px;
+    position: absolute;
+}
+
+.del-button {
+    left: auto !important;
+    right: 80px !important;
+    position: absolute;
+    top: 20px;
+}
+
+.container.mt-4 {
+    position: relative;
+}
+form#product_form {
+    position: relative;
+}
+
+a.cancel-button {
+    left: auto;
+    right: 0;
+    position: absolute;
+    top: -78px;
+}
+
+input#save-btn {
+    left: auto;
+    right: 96px;
+    position: absolute;
+}
+
+form#del-pro .row {
+    display: flex;
+    flex-wrap: wrap;
+}
