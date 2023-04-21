@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caf0fb26-19d4-43af-8b3a-2766f6dba884" name="Changes" comment="" />
+    <list default="true" id="caf0fb26-19d4-43af-8b3a-2766f6dba884" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dump20230410.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/Api/Products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/Classes/AddProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/Classes/AddProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/Classes/Products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/Database/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/Database/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/Database/Queries.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/Database/Queries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/js/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/js/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/saveApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/saveApi.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +31,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/lp-065/Documents/scandiweb&quot;,
@@ -55,6 +72,9 @@
       <workItem from="1681377320222" duration="1902000" />
       <workItem from="1681733574907" duration="799000" />
       <workItem from="1681734764235" duration="12000" />
+      <workItem from="1681734777232" duration="868000" />
+      <workItem from="1681750273816" duration="6000" />
+      <workItem from="1682075679773" duration="456000" />
     </task>
     <servers />
   </component>

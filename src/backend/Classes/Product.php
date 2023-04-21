@@ -7,8 +7,10 @@ abstract class Product
 {
     protected $id;
     protected $sku;
+
     protected $name;
     protected $price;
+
     protected $type;
     protected $attribute;
 
@@ -73,6 +75,13 @@ abstract class Product
     {
         $this->type = $type;
     }
-
+    public function setAttribute($attribute): void
+    {
+        $this->attribute=$attribute;
+    }
+    public function getAttribute()
+    {
+        return $this->attribute;
+    }
 }
 
